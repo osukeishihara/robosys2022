@@ -4,11 +4,20 @@
 
 import sys
 
-x = 0
+a = b = c = d = 0
 for n in sys.stdin:
     try:
-        x += int(n)
+        a += int(n)
+        b -= int(n)
+        c *= int(n)
+        d %= int(n)
     except:   
-        x += float(n)
+        a += float(n)
+        b -= float(n)
+        c *= float(n)
+        d %= float(n)
 
-print(x)
+print(a)
+print(b)
+print(c)
+print(d)
