@@ -19,7 +19,6 @@ out=$(./subtract < num)
 out=$(./multiplication < num)
 [ "${out}" = 375.0 ] || ng ${LINENO}
 
-
 out=$(echo あ | ./plus)
 [ "$?" = 1 ]       || ng ${LINENO}
 [ "${out}" = "" ]  || ng ${LINENO}
@@ -28,9 +27,21 @@ out=$(echo あ | ./subtract)
 [ "$?" = 1 ] || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
 
+out=$(echo あ | ./multiplication)
+[ "$?" = 1 ] || ng ${LINENO}
+[ "${out}" = "" ] || ng ${LINENO}
+
 out=$(echo | ./plus)
 [ "$?" = 1 ]       || ng ${LINENO}
 [ "${out}" = "" ]  || ng ${LINENO}
+
+out=$(echo | ./subtract)
+[ "$?" = 1 ] || ng ${LINENO}
+[ "${out}" = "" ] || ng ${LINENO}
+
+out=$(echo | ./multiplication)
+[ "$?" = 1 ] || ng ${LINENO}
+[ "${out}" = "" ] || ng ${LINENO}
 
 [ "$res" = 0 ] && echo OK
 exit $res
