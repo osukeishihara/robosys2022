@@ -10,8 +10,8 @@ ng () {
 res=0
 
 
-out=$(seq 5 | ./plus)
-[ "${out}" = 15 ] || ng ${LINENO}
+out=$(./plus < num)
+[ "${out}" = 62.0\n -62.0\n 375.0\n -1441500.0 ] || ng ${LINENO}
 
 out=$(echo あ | ./plus)
 [ "$?" = 1 ]       || ng ${LINENO}

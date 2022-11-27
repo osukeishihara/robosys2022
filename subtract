@@ -4,12 +4,11 @@
 
 import sys
 
-a = 0
+b = 0
 for n in sys.stdin:
     try:
-        a += int(n)
-    except:   
-        a += float(n)
+        b -= int(n)
+    except:
+        b -= float(n)
 
-print(a)
-
+print(b)
