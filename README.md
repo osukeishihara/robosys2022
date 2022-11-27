@@ -14,10 +14,11 @@
 　./plus < num
   ./subtract < num
   ./multiplication < num
+
   ```
   ````
-* 環境
-　OSはWindows11バージョン 21H2で仕様確認済み
+* 動作環境
+　OSはWindows11バージョン 21H2で確認済み
 　PythonのバージョンはPython3
 
 　
@@ -30,7 +31,7 @@
 ## テスト環境
 * Ubuntu
 
-©　2022　Osuke　Ishihara
+© 2022 Osuke Ishihara
 
 
 
