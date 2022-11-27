@@ -1,7 +1,10 @@
 # plusコマンド
 ![test](https://github.com/osukeishihara/robosys2022/actions/workflows/test.yml/badge.svg)
 
-標準入力から読み込んだ数字を足す。
+標準入力から読み込んだ数字を足す、引く、かける。
+
+##使い方
+* WSL2をWindowsにインストールする。次にUbuntu 22.04.1 LTSをインストールする。
 
 
 ## 必要なソフトウェア
