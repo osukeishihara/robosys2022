@@ -11,11 +11,22 @@ res=0
 
 
 out=$(./plus < num)
-[ "${out}" = 62.0\n -62.0\n 375.0\n -1441500.0 ] || ng ${LINENO}
+[ "${out}" = 62.0 ] || ng ${LINENO}
+
+out=$(./subtract < num)
+[ "${out}" = -62.0 ] || ng ${LINENO}
+
+out=$(./multiplication < num)
+[ "${out}" = 375.0 ] || ng ${LINENO}
+
 
 out=$(echo あ | ./plus)
 [ "$?" = 1 ]       || ng ${LINENO}
 [ "${out}" = "" ]  || ng ${LINENO}
+
+out=$(echo あ | ./subtract)
+[ "$?" = 1 ] || ng ${LINENO}
+[ "${out}" = "" ] || ng ${LINENO}
 
 out=$(echo | ./plus)
 [ "$?" = 1 ]       || ng ${LINENO}
