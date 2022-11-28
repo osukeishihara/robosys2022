@@ -9,14 +9,11 @@
 * 簡単な使い方
    ````
    ```
-
    git clone https://github.com:osukeishihara/robosys2022.git
    cd robosys2022
  　./plus < num
    ./subtract < num
-   ./multiplication < num 
-
-   ```
+   ./multiplication < num  ```
    ````
 * 動作環境
 　OSはWindows11バージョン 21H2で確認済み
