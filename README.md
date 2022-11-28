@@ -11,7 +11,7 @@
    ```
    git clone https://github.com:osukeishihara/robosys2022.git
    cd robosys2022
-  　./plus < num
+ 　./plus < num
     ./subtract < num
     ./multiplication < num 
    ```
