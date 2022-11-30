@@ -11,13 +11,13 @@
  $ git clone https://github.com:osukeishihara/robosys2022.git  #リポジトリをローカル環境に複製するコマンド
  $ cd robosys2022　#robosys2022というディレクトリに移動する
  $ ./plus < num　#plusにnumのファイルの中身を受け渡し、実行するコマンド
-
+   62.0 と出力される。
  $ ./subtract < num　#subtractにnumのファイルの中身を受け渡し、実行するコマンド
-
+  -62.0　と出力される。
  $ ./multiplication < num　#multiplicationにnumのファイルの中身を受け渡し、実行するコマンド
-
+   375.0　と出力される。
   ```
-## 環境
+## 動作環境
 　OSはWindows11バージョン 21H2で仕様確認済み
 　PythonのバージョンはPython3
 
