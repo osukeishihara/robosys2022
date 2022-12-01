@@ -4,11 +4,11 @@
 
 import sys
 
-c = 1
+a = 1
 for n in sys.stdin:
     try:
-        c *= int(n)
+        a *= int(n)
     except:
-        c *= float(n)
+        a *= float(n)
 
-print(c)
+print(a)

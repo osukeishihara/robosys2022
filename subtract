@@ -4,11 +4,11 @@
 
 import sys
 
-b = 0
+c = 0
 for n in sys.stdin:
     try:
-        b -= int(n)
+        c -= int(n)
     except:
-        b -= float(n)
+        c -= float(n)
 
-print(b)
+print(c)
