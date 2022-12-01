@@ -1,4 +1,4 @@
-# calculateコマンド
+# plus,substract,multiplicationコマンド
 ![test](https://github.com/osukeishihara/robosys2022/actions/workflows/test.yml/badge.svg)
 
 標準入力から読み込んだ数字を足す、引く、かける。
@@ -7,6 +7,7 @@
 * WSL2をパソコンにインストールする。次にUbuntu 22.04.1 LTSをインストールする。
   インストールを終え、Ubuntu 22.04.1 LTSが開けたらインストール完了。
 * 簡単な使い方
+
  ```
 
   $ git clone https://github.com:osukeishihara/robosys2022.git  #リポジトリをローカル環境に複製するコマンド
@@ -14,14 +15,14 @@
 
  ```
 
-* numのファイルの中の数字をすべて足していくplusファイル
+* numのファイルの中の数字をすべて足し算していくplusファイル
  ```
 
   $ ./plus < num　#plusにnumのファイルの中身を受け渡し、実行するコマンド
     62.0 と出力される。
 
  ```
-* numのファイルの中の数字をすべて引いていくsubtractコマンド
+* numのファイルの中の数字をすべて引き算していくsubtractコマンド
  ```
 
   $ ./subtract < num　#subtractにnumのファイルの中身を受け渡し、実行するコマンド
