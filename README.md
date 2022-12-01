@@ -37,9 +37,9 @@
 
  ```
 ## 動作環境
-　OS:Windows11バージョン 21H2
+* OS:Windows11バージョン 21H2
      OS上のWSL2で動作確認済み
-　Pythonのバージョン:Python3
+* Pythonのバージョン:Python3
 
 　
 
