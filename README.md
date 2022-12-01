@@ -51,7 +51,7 @@
 * Ubuntu 22.04.1 LTS
 
 ## ライセンス
-©　2022　Osuke　Ishihara
+
 
 
 
