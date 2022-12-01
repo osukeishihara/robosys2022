@@ -19,12 +19,18 @@
 
   $ ./plus < num　#plusにnumのファイルの中身を受け渡し、実行するコマンド
     62.0 と出力される。
+
  ```
 * numのファイルの中の数字をすべて引いていくsubtractコマンド
  ```
 
   $ ./subtract < num　#subtractにnumのファイルの中身を受け渡し、実行するコマンド
    -62.0　と出力される。
+　
+ ```
+* numのファイルの中の数字をすべて掛け算していくmultiplicationファイル
+ ```
+
   $ ./multiplication < num　#multiplicationにnumのファイルの中身を受け渡し、実行するコマンド
     375.0　と出力される。
 
