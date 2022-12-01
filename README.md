@@ -12,6 +12,8 @@
  $ git clone https://github.com:osukeishihara/robosys2022.git  #リポジトリをローカル環境に複製するコマンド
  $ cd robosys2022　#robosys2022というディレクトリに移動する
  $ ./plus < num　#plusにnumのファイルの中身を受け渡し、実行するコマンド
+** ファイルの中身の数字をすべて足していくプログラム
+
    62.0 と出力される。
  $ ./subtract < num　#subtractにnumのファイルの中身を受け渡し、実行するコマンド
   -62.0　と出力される。
