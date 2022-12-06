@@ -1,7 +1,8 @@
 # plus,subtract,multiplicationコマンド
-![test](https://github.com/osukeishihara/robosys2022/actions/workflows/test.yml/badge.svg)
+* 簡単な説明  
+  標準入力から読み込んだ数字を足す、引く、かける。
 
-標準入力から読み込んだ数字を足す、引く、かける。
+![test](https://github.com/osukeishihara/robosys2022/actions/workflows/test.yml/badge.svg)
 
 
 ## インストール方法
@@ -65,7 +66,7 @@
 ## 必要なソフトウェア
 * Python 3.7～3.10:テスト済み
 
-## テスト環境
+## 動作確認済み環境
 * Ubuntu 22.04.1 LTS
 
 ## ライセンス
