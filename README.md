@@ -8,8 +8,8 @@
 
  ```
 
-  $ git clone https://github.com:osukeishihara/robosys2022.git          #リポジトリをローカル環境に複製するコマンド
-  $ cd robosys2022         　#robosys2022というディレクトリに移動する
+  $ git clone https://github.com:osukeishihara/robosys2022.git        #リポジトリをローカル環境に複製するコマンド
+  $ cd robosys2022       　#robosys2022というディレクトリに移動する
 
  ```
 
