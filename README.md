@@ -13,27 +13,33 @@
 
  ```
 
-* numのファイルの中の数字をすべて足し算していくplusファイル
- ```
-
-  $ ./plus < num　#plusにnumのファイルの中身を受け渡し、実行するコマンド
-    62.0 と出力される。
+* plusコマンド→標準入力された数字をすべて足し算していくplusファイル
 
  ```
-* numのファイルの中の数字をすべて引き算していくsubtractコマンド
+
+  $ ./plus < num　　　　#plusにnumのファイルの中身を受け渡し、実行するコマンド
+    62.0　　　　　　　　 と出力される。
+
  ```
 
-  $ ./subtract < num　#subtractにnumのファイルの中身を受け渡し、実行するコマンド
-   -62.0　と出力される。
+* subtractコマンド→標準入力された数字をすべて引き算していくsubtractコマンド
+
+ ```
+
+  $ ./subtract < num　　　　#subtractにnumのファイルの中身を受け渡し、実行するコマンド
+   -62.0　　　　　　　　　　　と出力される。
 　
  ```
-* numのファイルの中の数字をすべて掛け算していくmultiplicationファイル
- ```
 
-  $ ./multiplication < num　#multiplicationにnumのファイルの中身を受け渡し、実行するコマンド
-    375.0　と出力される。
+* multiplicationコマンド→numのファイルの中の数字をすべて掛け算していくmultiplicationファイル
 
  ```
+
+  $ ./multiplication < num　　　　#multiplicationにnumのファイルの中身を受け渡し、実行するコマンド
+    375.0　　　　　　　　　　　　　と出力される。
+
+ ```
+
 ## 動作環境
 * OS:Windows11バージョン 21H2
      OS上のWSL2で動作確認済み
