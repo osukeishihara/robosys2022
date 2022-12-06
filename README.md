@@ -1,4 +1,4 @@
-# plus,subtract,multiplicationコマンド
+# plus subtract multiplicationコマンド
 * 簡単な説明  
   標準入力から読み込んだ数字を足す、引く、かける。
 
