@@ -2,7 +2,8 @@
 * 簡単な説明  
   標準入力から読み込んだ数字を足す、引く、かける。
 
-![test](https://github.com/osukeishihara/robosys2022/actions/workflows/test.yml/badge.svg)
+* Python3.7～3.10においてテストが成功している  
+　![test](https://github.com/osukeishihara/robosys2022/actions/workflows/test.yml/badge.svg)
 
 
 ## インストール方法
@@ -25,7 +26,6 @@
 
 * plusコマンドの説明  
 　標準入力された数字をすべて足し算していく。  
-　numファイルに予め入っている数字をplusに受け渡している。
 
 
 * subtractコマンドの使い方
@@ -39,7 +39,6 @@
 
 * subtractコマンドの説明  
 　標準入力された数字をすべて引き算していく。  
-　numファイルに予め入っている数字をsubtractに受け渡している。
 
 
 * multiplicationコマンドの使い方
@@ -53,11 +52,8 @@
 
 * multiplicationコマンドの説明  
 　標準入力された数字をすべて掛け算していく。  
-　numファイルに予め入っている数字をmultiplicationに受け渡している。
 
 ## 動作確認済み環境
-* OS:Windows11バージョン 21H2
-     OS上のWSL2で動作確認済み
 * Pythonのバージョン:Python3.7～3.10
 * Ubuntu 22.04.1 LTS
 　
