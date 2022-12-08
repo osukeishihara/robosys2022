@@ -1,8 +1,5 @@
 # plus subtract multiplicationコマンド
-* 簡単な説明  
-  標準入力から読み込んだ数字を足す、引く、かける。
-
-* 下のバッチはPython3.7～3.10においてテストが成功していることを示す。  
+* 下のバッチはPython3.7～3.10においてテストした。  
 　![test](https://github.com/osukeishihara/robosys2022/actions/workflows/test.yml/badge.svg)
 
 
