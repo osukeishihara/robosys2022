@@ -2,15 +2,6 @@
 * 下のバッチはPython3.7～3.10においてテストした。  
 　![test](https://github.com/osukeishihara/robosys2022/actions/workflows/test.yml/badge.svg)
 
-
-## インストール方法
-
- ```
-
-  $ git clone https://github.com:osukeishihara/robosys2022.git      #リポジトリをローカル環境に複製するコマンド
-  $ cd robosys2022     　#robosys2022というディレクトリに移動する
-
- ```
 ## コマンドの説明
 * plusコマンド
 　標準入力された数字をすべて足し算していく。
@@ -20,6 +11,15 @@
 
 * multiplicationコマンド
 　標準入力された数字をすべて掛け算していく。
+
+## インストール方法
+
+ ```
+
+  $ git clone https://github.com:osukeishihara/robosys2022.git      #リポジトリをローカル環境に複製するコマンド
+  $ cd robosys2022     　#robosys2022というディレクトリに移動する
+
+ ```
 
 ## コマンドの使い方
 * plusコマンド
