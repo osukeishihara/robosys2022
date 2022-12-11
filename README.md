@@ -1,8 +1,5 @@
 # plus subtract multiplicationコマンド
-* 下のバッチはPython3.7～3.10においてテストした。  
-　![test](https://github.com/osukeishihara/robosys2022/actions/workflows/test.yml/badge.svg)
-
-## コマンドの説明
+　 コマンドの説明
 * plusコマンド
 　標準入力された数字をすべて足し算していく。
 
@@ -10,7 +7,11 @@
 　標準入力された数字をすべて引き算していく。
 
 * multiplicationコマンド
-　標準入力された数字をすべて掛け算していく。
+　標準入力された数字をすべて掛け算していく。　
+
+## テストバッジ
+* 下のバッチはPython3.7～3.10においてテストした。  
+　![test](https://github.com/osukeishihara/robosys2022/actions/workflows/test.yml/badge.svg)
 
 ## インストール方法
 
