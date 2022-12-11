@@ -1,4 +1,4 @@
-# plus subtract multiplicationコマンドの説明
+# robosys2022に含まれるplus subtract multiplicationコマンドの説明
 * plusコマンド
 　標準入力された数字をすべて足し算していく。
 
@@ -22,7 +22,7 @@
  ```
 
 ## コマンドの使い方
- numファイルには、
+ numファイルには、50 0.5 1.5 10の4つの数字が入力されている。
 * plusコマンド
 
  ```
