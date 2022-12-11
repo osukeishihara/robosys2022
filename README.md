@@ -1,4 +1,4 @@
-# robosys2022に含まれるplus subtract multiplicationコマンドの説明
+# robosys2022に含まれるコマンドの説明
 * plusコマンド
 　標準入力された数字をすべて足し算していく。
 
